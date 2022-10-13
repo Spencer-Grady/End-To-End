@@ -3,6 +3,8 @@ import tarfile
 import urllib
 import urllib.request
 
+#Hands On Machine Learning with Scikit-learn, Keras, and Tensorflow: O'Reilly
+
 DOWNLOAD_ROOT = "https://raw.githubusercontent.com/ageron/handson-ml2/master/"
 HOUSING_PATH = os.path.join("datasets", "housing")
 HOUSING_URL = DOWNLOAD_ROOT + "datasets/housing/housing.tgz"
